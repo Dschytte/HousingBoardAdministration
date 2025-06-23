@@ -1,0 +1,36 @@
+﻿/* styles.css */
+body {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.col-form-label {
+    font-weight: bold;
+}
+
+.form-control-plaintext {
+    border: none;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+a {
+    color: #007bff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }

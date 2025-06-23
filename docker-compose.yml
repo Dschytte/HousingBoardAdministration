@@ -1,0 +1,42 @@
+version: '3.9'
+
+services:
+  housing-board-api:
+    build:
+      context: .
+      dockerfile: ./HousingBoardAdministration.HousingBoardApi/Dockerfile
+    ports:
+      - "5001:80"
+    networks:
+      - backend
+    environment:    
+      "ASPNETCORE_ENVIRONMENT": "Development"
+
+  booking-system-api:
+    build:
+      context: .
+      dockerfile: ./HousingBoardAdministration.BookingSystemApi/Dockerfile
+    ports:
+      - "5002:80"
+    networks:
+      - backend
+    environment:    
+      "ASPNETCORE_ENVIRONMENT": "Development"
+
+  housing-board-web:
+    environment:    
+      "ASPNETCORE_ENVIRONMENT": "Development"
+    build:
+      context: .
+      dockerfile: ./HousingBoardAdministration.HousingAdministrationWeb/Dockerfile
+    ports:
+      - "5000:80"
+    networks:
+      - backend
+    depends_on:
+      - housing-board-api
+      - booking-system-api
+
+networks:
+  backend:
+    driver: bridge

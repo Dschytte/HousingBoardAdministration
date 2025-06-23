@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="HousingBoardApi.Domain.Entities.RoleEntity">
+    <Position X="0.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Entities\RoleEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HousingBoardApi.Domain.Entities.MeetingTypeEntity">
+    <Position X="12" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Entities\MeetingTypeEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HousingBoardApi.Domain.Entities.MeetingEntity">
+    <Position X="15.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAAAAAAABAgBCAAAAACAAAAAAAAQAA=</HashCode>
+      <FileName>Entities\MeetingEntity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MeetingType" />
+      <Property Name="MeetingOwner" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Documents" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="HousingBoardApi.Domain.Entities.DocumentTypeEntity">
+    <Position X="8.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Entities\DocumentTypeEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HousingBoardApi.Domain.Entities.DocumentEntity">
+    <Position X="19" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAABAAAAEAAAAAAAAAAAACAAAQCAAAAAQAAAAA=</HashCode>
+      <FileName>Entities\DocumentEntity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DocumentType" />
+      <Property Name="Meeting" />
+      <Property Name="DocumentOwner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HousingBoardApi.Domain.Entities.BoardMemberRoleEntity">
+    <Position X="2" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAQAAAAAAAEAAABAAgAAAAAAAAAAAAAEAAAAQ=</HashCode>
+      <FileName>Entities\BoardMemberRoleEntity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BoardMember" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HousingBoardApi.Domain.Entities.BoardMemberEntity">
+    <Position X="5.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEAAAAAAAAAAEAAAAAAAAAAAAAACAQAAIAAAAAg=</HashCode>
+      <FileName>Entities\BoardMemberEntity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Role" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HousingBoardApi.Domain.Common.BaseEntity">
+    <Position X="10.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAABAAAAAAAAgAAAAAAAQAAAAA=</HashCode>
+      <FileName>Common\BaseEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

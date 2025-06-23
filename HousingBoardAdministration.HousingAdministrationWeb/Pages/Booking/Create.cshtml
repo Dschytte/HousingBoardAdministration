@@ -1,0 +1,51 @@
+﻿@page
+@model HousingBoardAdministration.HousingAdministrationWeb.Pages.Booking.CreateModel
+@{
+}
+<span class="text-danger">@TempData["ErrorMes"]</span>
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="BookingModel.StartDate"></label>
+                <input asp-for="BookingModel.StartDate" class="form-control" min="@DateTime.UtcNow.ToString("yyyy-MM-dd")" />
+                <span asp-validation-for="BookingModel.StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BookingModel.EndDate"></label>
+                <input asp-for="BookingModel.EndDate" class="form-control" min="@DateTime.UtcNow.ToString("yyyy-MM-dd")" />
+                <span asp-validation-for="BookingModel.EndDate" class="text-danger"></span>
+            </div>
+            <h2>Resourser:</h2>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Vælg resourse</th>
+                        <th>Beskrivelse</th>
+                        <th>Specifikation</th>
+                        <th>Pris</th>
+                        <th>Vis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var resource in Model.AllResources)
+                    {
+                        <tr class="row-clickable" data-href="@Url.Page("./Get", new { id = resource.Id })">
+                            <td class="actions">
+                                <input type="checkbox" name="BookingModel.ResourceIdsList" value="@Guid.Parse(resource.Id.ToString())" />
+                            </td>
+                            <td>@resource.Description</td>
+                            <td>@resource.Specification</td>
+                            <td>@resource.Price</td>
+                            <td class="actions">
+                                <a asp-page="./resource/Get" asp-route-id="@resource.Id">Vis bookings</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <button type="submit" class="btn btn-primary">Opret booking</button>
+        </form>
+    </div>
+</div>

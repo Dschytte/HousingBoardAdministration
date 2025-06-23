@@ -1,0 +1,90 @@
+﻿@page
+@model HousingBoardAdministration.HousingAdministrationWeb.Pages.Meeting.IndexModel
+@{
+}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<link rel="stylesheet" href="~/css/styles.css" />
+
+
+<script>
+    $(document).ready(function () {
+        $(".row-clickable").hover(function () {
+            $(this).css("cursor", "pointer");
+        });
+
+        $(".row-clickable").click(function () {
+            window.location = $(this).data("href");
+        });
+    });
+</script>
+
+<form method="post">
+    <div class="container">
+        <h2>Fremtidige møder:</h2>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Titel</th>
+                    <th>Beskrivelse</th>
+                    <th>Møde type</th>
+                    <th>Tidspunkt</th>
+                    <th>Lokation</th>
+                    <th>Handlinger</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var meeting in Model.MeetingsViewModel)
+                {
+                    <tr class="row-clickable" data-href="@Url.Page("./Get", new { id = meeting.Id })">
+                        <td>@meeting.Title</td>
+                        <td>@meeting.Description</td>
+                        <td>@meeting.MeetingType.Type</td>
+                        <td>@meeting.MeetingTime</td>
+                        <td>@meeting.AddressLocation</td>
+                        <td class="actions">
+                            <a asp-page="./Get" asp-route-id="@meeting.Id">Vis</a>
+                            <a asp-page="./Edit" asp-route-id="@meeting.Id">Rediger</a>
+                            <a asp-page="./Delete" asp-route-id="@meeting.Id">Slet</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a asp-page="Create" class="btn btn-primary">Opret møde</a>
+
+        <div class="mb-4"></div>
+        <div class="mb-4"></div>
+        <div class="mb-4"></div>
+
+
+        <h2>Afsluttende møder:</h2>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Titel</th>
+                    <th>Beskrivelse</th>
+                    <th>Møde type</th>
+                    <th>Tidspunkt</th>
+                    <th>Lokation</th>
+                    <th>Handlinger</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var meeting in Model.OldMeetingsViewModel)
+                {
+                    <tr class="row-clickable" data-href="@Url.Page("./Get", new { id = meeting.Id })">
+                        <td>@meeting.Title</td>
+                        <td>@meeting.Description</td>
+                        <td>@meeting.MeetingType.Type</td>
+                        <td>@meeting.MeetingTime</td>
+                        <td>@meeting.AddressLocation</td>
+                        <td class="actions">
+                            <a asp-page="./Get" asp-route-id="@meeting.Id">Vis</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</form>

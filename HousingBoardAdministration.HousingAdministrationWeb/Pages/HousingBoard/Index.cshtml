@@ -1,0 +1,54 @@
+﻿@page
+@model HousingBoardAdministration.HousingAdministrationWeb.Pages.HousingBoard.IndexModel
+@{
+}
+<link rel="stylesheet" href="~/css/styles.css" />
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".row-clickable").hover(function () {
+            $(this).css("cursor", "pointer");
+        });
+
+        $(".row-clickable").click(function () {
+            window.location = $(this).data("href");
+        });
+    });
+</script>
+
+<form method="post">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Brugernavn</th>
+                <th>Fornavn</th>
+                <th>Efternavn</th>
+                <th>Adresse</th>
+                <th>Bestyrelsesrolle</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var boardmember in Model.BoardMembersViewModel)
+            {
+                <tr class="row-clickable" data-href="@Url.Page("./BoardMember/Get", new { id = boardmember.Id })">
+                    <td>@boardmember.UserName</td>
+                    <td>@boardmember.FirstName</td>
+                    <td>@boardmember.LastName</td>
+                    <td>@boardmember.ResidentAddress</td>
+                    <td>@boardmember.BoardMemberCurrentRole.Role.RoleName</td>
+                    <td>
+                        <a asp-page="./BoardMember/Get" asp-route-id="@boardmember.Id">Vis</a> |
+                        <!-- <snippet_Edit> -->
+                        <a asp-page="./BoardMember/Edit" asp-route-id="@boardmember.Id">Rediger</a> |
+                        <!-- </snippet_Edit> -->
+                        <!-- <snippet_Delete> -->
+                        <a asp-page="./BoardMember/Delete" asp-route-id="@boardmember.Id">Slet</a>
+                        <!-- </snippet_Delete> -->
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/Identity/Account/Register" class="btn btn-primary">Registrer nyt medlem</a>
+</form>

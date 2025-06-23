@@ -1,0 +1,37 @@
+﻿@page
+@model HousingBoardAdministration.HousingAdministrationWeb.Pages.Meeting.EditModel
+@{
+}
+<link rel="stylesheet" href="~/css/styles.css" />
+
+<h2>Opdater møde</h2>
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            <input type="hidden" asp-for="MeetingModel.Id" class="form-control" />
+            <input type="hidden" asp-for="MeetingModel.RowVersion" class="form-control" />
+
+            <div class="form-group">
+                <label asp-for="MeetingModel.Title"></label>
+                <input asp-for="MeetingModel.Title" class="form-control" />
+                <span asp-validation-for="MeetingModel.Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MeetingModel.Description"></label>
+                <input asp-for="MeetingModel.Description" class="form-control" />
+                <span asp-validation-for="MeetingModel.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MeetingModel.MeetingTime"></label>
+                <input asp-for="MeetingModel.MeetingTime" class="form-control" />
+                <span asp-validation-for="MeetingModel.MeetingTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MeetingModel.AddressLocation"></label>
+                <input asp-for="MeetingModel.AddressLocation" class="form-control" />
+                <span asp-validation-for="MeetingModel.AddressLocation" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Opdater møde</button>
+        </form>
+    </div>
+</div>

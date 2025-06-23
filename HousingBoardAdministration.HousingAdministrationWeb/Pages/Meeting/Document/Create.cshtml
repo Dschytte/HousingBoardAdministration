@@ -1,0 +1,26 @@
+﻿@page
+@model HousingBoardAdministration.HousingAdministrationWeb.Pages.Meeting.Document.CreateModel
+@{
+}
+<link rel="stylesheet" href="~/css/styles.css" />
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Upload"></label>
+                <input type="file" asp-for="Upload" />
+            </div>
+            <div class="form-group">
+                <label asp-for="DocumentModel.Title"></label>
+                <input asp-for="DocumentModel.Title" class="form-control" />
+                <span asp-validation-for="DocumentModel.Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="DocumentType">Dokument type</label>
+                <select asp-for="SelectedDocumentTypeId" asp-items="Model.DocumentTypeSelectList" class="form-control"></select>
+            </div>
+            <button type="submit" class="btn btn-primary">Tilføj dokument</button>
+        </form>
+    </div>
+</div>

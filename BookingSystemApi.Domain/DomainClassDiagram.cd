@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="BookingSystemApi.Domain.Common.BaseEntity">
+    <Position X="14.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Common\BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookingSystemApi.Domain.Entities.BookingEntity">
+    <Position X="11.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Entities\BookingEntity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Resources" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BookingSystemApi.Domain.Entities.ResourceEntity">
+    <Position X="17.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\ResourceEntity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Bookings" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BookingSystemApi.Domain.Entities.ResidentEntity">
+    <Position X="14.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEAAAAAgAIAAAAAAAAAAAAAAAAAAAQAAAAAAAAg=</HashCode>
+      <FileName>Entities\ResidentEntity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Bookings" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

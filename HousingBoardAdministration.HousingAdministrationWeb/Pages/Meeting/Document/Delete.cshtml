@@ -1,0 +1,15 @@
+﻿@page
+@model HousingBoardAdministration.HousingAdministrationWeb.Pages.Meeting.Document.DeleteModel
+@{
+}
+<link rel="stylesheet" href="~/css/styles.css" />
+<span class="text-danger">@TempData["ErrorMes"]</span>
+<h2>Slet dokument</h2>
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            <input type="hidden" asp-for="DocumentModel.Id" class="form-control" />
+            <button type="submit" class="btn btn-primary">Slet dokumentet</button>
+        </form>
+    </div>
+</div>

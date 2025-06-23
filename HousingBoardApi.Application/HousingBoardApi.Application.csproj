@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Commands\BoardMemberRole\Edit\**" />
+    <Compile Remove="Queries\BoardMemberRole\**" />
+    <Compile Remove="Queries\BoardMember\Dto\**" />
+    <Compile Remove="Queries\BoardMember\Implementation\**" />
+    <Compile Remove="Queries\BoardMember\Interface\**" />
+    <EmbeddedResource Remove="Commands\BoardMemberRole\Edit\**" />
+    <EmbeddedResource Remove="Queries\BoardMemberRole\**" />
+    <EmbeddedResource Remove="Queries\BoardMember\Dto\**" />
+    <EmbeddedResource Remove="Queries\BoardMember\Implementation\**" />
+    <EmbeddedResource Remove="Queries\BoardMember\Interface\**" />
+    <None Remove="Commands\BoardMemberRole\Edit\**" />
+    <None Remove="Queries\BoardMemberRole\**" />
+    <None Remove="Queries\BoardMember\Dto\**" />
+    <None Remove="Queries\BoardMember\Implementation\**" />
+    <None Remove="Queries\BoardMember\Interface\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HousingBoardApi.Domain\HousingBoardApi.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

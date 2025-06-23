@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danni\\HousingBoardAdministration\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F91CA1-6A22-4DD6-AFB4-13E4EF69E17F}|HousingBoardAdministration.HousingBoardApi\\HousingBoardAdministration.HousingBoardApi.csproj|c:\\users\\danni\\housingboardadministration\\housingboardadministration.housingboardapi\\controllers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8F91CA1-6A22-4DD6-AFB4-13E4EF69E17F}|HousingBoardAdministration.HousingBoardApi\\HousingBoardAdministration.HousingBoardApi.csproj|solutionrelative:housingboardadministration.housingboardapi\\controllers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F91CA1-6A22-4DD6-AFB4-13E4EF69E17F}|HousingBoardAdministration.HousingBoardApi\\HousingBoardAdministration.HousingBoardApi.csproj|c:\\users\\danni\\housingboardadministration\\housingboardadministration.housingboardapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8F91CA1-6A22-4DD6-AFB4-13E4EF69E17F}|HousingBoardAdministration.HousingBoardApi\\HousingBoardAdministration.HousingBoardApi.csproj|solutionrelative:housingboardadministration.housingboardapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBFE6D9-21C2-4DC6-9229-08600D2E3946}|HousingBoardApi.Application\\HousingBoardApi.Application.csproj|c:\\users\\danni\\housingboardadministration\\housingboardapi.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBFE6D9-21C2-4DC6-9229-08600D2E3946}|HousingBoardApi.Application\\HousingBoardApi.Application.csproj|solutionrelative:housingboardapi.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBFE6D9-21C2-4DC6-9229-08600D2E3946}|HousingBoardApi.Application\\HousingBoardApi.Application.csproj|c:\\users\\danni\\housingboardadministration\\housingboardapi.application\\queries\\role\\dto\\rolegetqueryresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBFE6D9-21C2-4DC6-9229-08600D2E3946}|HousingBoardApi.Application\\HousingBoardApi.Application.csproj|solutionrelative:housingboardapi.application\\queries\\role\\dto\\rolegetqueryresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2D3BA1-FD69-46D0-A0FA-B74703A9CEBB}|HousingBoardApi.Domain\\HousingBoardApi.Domain.csproj|c:\\users\\danni\\housingboardadministration\\housingboardapi.domain\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2D3BA1-FD69-46D0-A0FA-B74703A9CEBB}|HousingBoardApi.Domain\\HousingBoardApi.Domain.csproj|solutionrelative:housingboardapi.domain\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBFE6D9-21C2-4DC6-9229-08600D2E3946}|HousingBoardApi.Application\\HousingBoardApi.Application.csproj|c:\\users\\danni\\housingboardadministration\\housingboardapi.application\\irepositories\\iboardmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBFE6D9-21C2-4DC6-9229-08600D2E3946}|HousingBoardApi.Application\\HousingBoardApi.Application.csproj|solutionrelative:housingboardapi.application\\irepositories\\iboardmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBFE6D9-21C2-4DC6-9229-08600D2E3946}|HousingBoardApi.Application\\HousingBoardApi.Application.csproj|c:\\users\\danni\\housingboardadministration\\housingboardapi.application\\commands\\boardmember\\create\\createboardmembercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBFE6D9-21C2-4DC6-9229-08600D2E3946}|HousingBoardApi.Application\\HousingBoardApi.Application.csproj|solutionrelative:housingboardapi.application\\commands\\boardmember\\create\\createboardmembercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA1D82E-E8A0-4756-857B-4AB9EBB1DE3B}|HousingBoardApi.Infrastructure\\HousingBoardApi.Infrastructure.csproj|c:\\users\\danni\\housingboardadministration\\housingboardapi.infrastructure\\repositories\\boardmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA1D82E-E8A0-4756-857B-4AB9EBB1DE3B}|HousingBoardApi.Infrastructure\\HousingBoardApi.Infrastructure.csproj|solutionrelative:housingboardapi.infrastructure\\repositories\\boardmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2D3BA1-FD69-46D0-A0FA-B74703A9CEBB}|HousingBoardApi.Domain\\HousingBoardApi.Domain.csproj|c:\\users\\danni\\housingboardadministration\\housingboardapi.domain\\entities\\boardmemberentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2D3BA1-FD69-46D0-A0FA-B74703A9CEBB}|HousingBoardApi.Domain\\HousingBoardApi.Domain.csproj|solutionrelative:housingboardapi.domain\\entities\\boardmemberentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateBoardMemberCommand.cs",
+              "DocumentMoniker": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Application\\Commands\\BoardMember\\Create\\CreateBoardMemberCommand.cs",
+              "RelativeDocumentMoniker": "HousingBoardApi.Application\\Commands\\BoardMember\\Create\\CreateBoardMemberCommand.cs",
+              "ToolTip": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Application\\Commands\\BoardMember\\Create\\CreateBoardMemberCommand.cs",
+              "RelativeToolTip": "HousingBoardApi.Application\\Commands\\BoardMember\\Create\\CreateBoardMemberCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T20:30:48.21Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BoardMemberEntity.cs",
+              "DocumentMoniker": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Domain\\Entities\\BoardMemberEntity.cs",
+              "RelativeDocumentMoniker": "HousingBoardApi.Domain\\Entities\\BoardMemberEntity.cs",
+              "ToolTip": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Domain\\Entities\\BoardMemberEntity.cs",
+              "RelativeToolTip": "HousingBoardApi.Domain\\Entities\\BoardMemberEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T20:31:06.672Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BoardMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Infrastructure\\Repositories\\BoardMemberRepository.cs",
+              "RelativeDocumentMoniker": "HousingBoardApi.Infrastructure\\Repositories\\BoardMemberRepository.cs",
+              "ToolTip": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Infrastructure\\Repositories\\BoardMemberRepository.cs",
+              "RelativeToolTip": "HousingBoardApi.Infrastructure\\Repositories\\BoardMemberRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T20:32:44.232Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBoardMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Application\\IRepositories\\IBoardMemberRepository.cs",
+              "RelativeDocumentMoniker": "HousingBoardApi.Application\\IRepositories\\IBoardMemberRepository.cs",
+              "ToolTip": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Application\\IRepositories\\IBoardMemberRepository.cs",
+              "RelativeToolTip": "HousingBoardApi.Application\\IRepositories\\IBoardMemberRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T20:32:12.84Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardAdministration.HousingBoardApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HousingBoardAdministration.HousingBoardApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardAdministration.HousingBoardApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HousingBoardAdministration.HousingBoardApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T08:49:10.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardAdministration.HousingBoardApi\\Controllers\\appsettings.json",
+              "RelativeDocumentMoniker": "HousingBoardAdministration.HousingBoardApi\\Controllers\\appsettings.json",
+              "ToolTip": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardAdministration.HousingBoardApi\\Controllers\\appsettings.json",
+              "RelativeToolTip": "HousingBoardAdministration.HousingBoardApi\\Controllers\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T08:47:39.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoleGetQueryResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Application\\Queries\\Role\\Dto\\RoleGetQueryResultDto.cs",
+              "RelativeDocumentMoniker": "HousingBoardApi.Application\\Queries\\Role\\Dto\\RoleGetQueryResultDto.cs",
+              "ToolTip": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Application\\Queries\\Role\\Dto\\RoleGetQueryResultDto.cs",
+              "RelativeToolTip": "HousingBoardApi.Application\\Queries\\Role\\Dto\\RoleGetQueryResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T15:58:36.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "HousingBoardApi.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "HousingBoardApi.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T15:52:37.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Domain\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "HousingBoardApi.Domain\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\danni\\HousingBoardAdministration\\HousingBoardApi.Domain\\DependencyInjection.cs",
+              "RelativeToolTip": "HousingBoardApi.Domain\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:17:22.333Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
